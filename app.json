@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "iTrace-App",
-    "slug": "iTrace-App",
+    "name": "I-Trace PoC",
+    "slug": "I-Trace-PoC",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/logo.png"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "noman.cui.itrace",
+      "icon": "./assets/logo.png"
     },
     "web": {
       "favicon": "./assets/favicon.png"
